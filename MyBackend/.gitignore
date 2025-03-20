@@ -1,0 +1,65 @@
+# Node.js dependencies (React)
+node_modules/
+npm-debug.log*
+yarn.lock
+package-lock.json
+dist/
+build/
+
+# React Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# React Coverage Reports
+coverage/
+*.log
+
+# ASP.NET Core dependencies
+bin/
+obj/
+*.db
+*.db-journal
+*.pdb
+*.exe
+*.dll
+*.so
+*.dylib
+
+# ASP.NET Logs & User-specific files
+logs/
+*.log
+.vscode/
+.idea/
+*.swp
+*.suo
+*.user
+*.bak
+*.ncb
+*.log
+*.orig
+*.rej
+
+# Entity Framework Migrations
+Migrations/
+
+# ASP.NET Configuration
+appsettings.json
+appsettings.Development.json
+secrets.json
+local.settings.json
+
+# Visual Studio
+.vs/
+*.sln.ide
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# macOS & Windows system files
+.DS_Store
+Thumbs.db
